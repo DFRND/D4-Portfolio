@@ -1,0 +1,11 @@
+header{
+  text-align: center;
+  display: inline;
+  margin-bottom: 7em;
+}
+#conteneur
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
