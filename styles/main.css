@@ -1,16 +1,147 @@
-header{
-  text-align: center;
-  display: inline;
-  margin-bottom: 7em;
+body {
+  background-color: #dddddd;
+  color: #823b3b;
+    margin: 0;
 }
-#conteneur
-{
+header {
+  background-color: #000;
+    min-height: 70vh;
+    background-repeat: no-repeat;
+/* donc ../ nous permet de remonter d'un cran dans le dossier */
+    background-image: url(../images/moi.jpg);
+    background-position: top center;
+    background-size: cover;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.header-content-block {
+  padding : 22px;
+  text-align: left;
+  margin-left: 50px;
+}
+
+.header-content-block h1 {
+  font-size: 8.25em;
+}
+
+#bio {
+  min-height: 45vh;
+  display: flex;
+  align-items: center;
+}
+
+#bio h1 {
+  display: none;
+}
+
+.bio-content-block {
+  max-width: 960px;
+  margin: 0 auto;
+  columns: 2;
+}
+
+#comp {
+  background-color: #fff;
+  color : #000;
+}
+#comp h2 {
+  text-align: left;
+  margin-top: 16px;
+margin-left: 34px;
+}
+#comp p {
+  margin-left: 20px;
+  margin-top: 40px;
+  font-size: 30px;
+}
+
+.media-block {
+  display: flex;
+}
+
+.media-block div {
+  width : 50%;
+}
+
+.media-block div img {
+  width: 100%;
 }
 
 
-.john {
-  float : right;
+.image-right {
+  flex-direction: row-reverse;
+}
+
+.images-left{
+  width: 100%;
+  height: 400px;
+  background-color: #000;
+}
+.nastyadvert {
+  background-color: #000;
+  color: #fff;
+  min-height: 98vh;
+  background-image: url(bowie_02.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: scroll;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edition3 {
+  background-color: #000;
+  color: #fff;
+  min-height: 90vh;
+  background-image: url(interieur-berite.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  color: black;
+  display: flex;}
+
+.illustration {
+  background-color: #000;
+  color: #fff;
+  min-height: 90vh;
+  background-image: url(christianbale.jpg);
+  background-size: contain;
+  background-position: center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  color: black;
+  display: flex;
+}
+.applietok {
+  background-color: #000;
+  color: #fff;
+  min-height: 90vh;
+  background-image: url(etok-presentation.jpg);
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  color: black;
+  display: flex;
+}
+
+footer{
+  height: 500px;
+  position: relative;
+  background-color: #000;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-image: url(../images/moifin.jpg);
+    background-position: top center;
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.footer-content-block h2{
+  color: #fff;
 }
