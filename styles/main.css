@@ -1,16 +1,47 @@
 header{
-  text-align: center;
-  display: inline;
-  margin-bottom: 7em;
+  margin-bottom: 2em;
+
 }
+
+span{
+
+}
+h1{
+  text-align: center;
+  font-size: 95px;
+  padding-top: 3rem;
+  clear: both;
+}
+
+
 #conteneur
 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 100px
 }
-
-
+#conteneur img {
+  display: block;
+}
+/* le point devant john permet de le cbler car c'est une classe dans mon html.*/
 .john {
   float : right;
+  margin-right: 10px;
+margin-top: 10px;
+}
+.paul{
+  margin-right: 10px;
+  margin-top: 10px;
+  float: left;
+}
+p{
+  font-size: 15px
+  display: flex;
+}
+#presentation{
+column-count:2;
+margin-left: 100px;
+margin-right: 100px;
+text-align: justify;
 }
